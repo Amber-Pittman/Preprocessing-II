@@ -221,7 +221,7 @@ img {
 .home .header-section img {
   display: flex;
   justify-content: center;
-  border: 2px solid darkblue;
+  margin: 0 0 20px;
 }
 .home .content-section {
   margin: 30px 0;
