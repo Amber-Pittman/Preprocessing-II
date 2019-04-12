@@ -1,6 +1,6 @@
 .btn {
-  background-color: teal;
-  color: white;
+  background-color: #17A2B8;
+  color: #FFFFFF;
   width: 80%;
   padding: 12px;
   margin: 10px 0;
@@ -179,6 +179,28 @@ img {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+}
+.navigation {
+  width: 100%;
+  border-bottom: 2px dashed #C0C0C0;
+}
+.navigation h1 {
+  margin: 0 20%;
+  display: flex;
+  justify-content: flex-start;
+}
+.navigation ul {
+  width: 40%;
+  padding: 0 12px;
+  margin: 0 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.navigation li {
+  font-size: 1.6em;
+}
+.navigation li a {
+  text-decoration: none;
 }
 .footer {
   width: 100%;
