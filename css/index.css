@@ -215,7 +215,13 @@ img {
   padding: 20px;
 }
 .home .header-section {
-  margin: 10px 20%;
+  margin: 10px 0;
+  border-bottom: 2px dashed #C0C0C0;
+}
+.home .header-section img {
+  display: flex;
+  justify-content: center;
+  border: 2px solid darkblue;
 }
 .home .content-section {
   margin: 30px 0;
