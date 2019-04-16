@@ -72,21 +72,36 @@
     .text-content {
       padding-left: 1%;
       padding-right: 0;
+
+      @media @mobile {
+        order: 1;
+      }
     }
 
     .img-content {
       padding-right: 1%;
       padding-left: 0;
+
+      @media @mobile {
+        order: 2;
+      }
     }
   }
 
   .content-destination {
+    
     width: 75%;
     margin: 0 auto 30px;
+
+    @media @mobile {
+      width: 97%;
+      padding: 0 3%;
+    }
 
     img {
       border-radius: 10px;
     }
+
   }
 
   .content-pick {
